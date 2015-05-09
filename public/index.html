@@ -1,0 +1,27 @@
+<html>
+  <style>
+
+text {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+  </style>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+    <!-- needed to get hotloading to work: <script src="http://localhost:8080/webpack-dev-server.js"></script> -->
+    <script type="text/javascript" src="bundle.js" charset="utf-8"></script>
+
+    <div id="content_div">
+      When loaded, Flux will put stuff here --->
+      <span id="flux-target" style="border:1px dotted grey; padding: 5px;">loading....</span>
+    </div>
+    </body>
+</html>

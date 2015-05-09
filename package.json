@@ -1,0 +1,31 @@
+{
+  "name": "webpack-boilerplate-jshint-babel-less",
+  "version": "0.0.1",
+  "description": "Webpack starter boilerplate w/ plugins for watch server, jshint, es6 (via babel), less, and flux/react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Datahero/webpack-boilerplate-jshint-babel-less"
+  },
+  "author": "DataHero (http://www.datahero.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Datahero/webpack-boilerplate-jshint-babel-less/issues"
+  },
+  "homepage": "https://github.com/Datahero/webpack-boilerplate-jshint-babel-less",
+  "devDependencies": {
+    "babel-core": "^5.2.15",
+    "babel-loader": "^5.0.0",
+    "webpack": "^1.8.11"
+  },
+  "dependencies": {
+    "flux": "^2.0.3",
+    "jshint": "^2.7.0",
+    "jshint-loader": "^0.8.3",
+    "lodash": "^3.8.0",
+    "object-assign": "^2.0.0"
+  }
+}
